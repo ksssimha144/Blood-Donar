@@ -18,4 +18,4 @@ export const SUB_AREAS = {
   'Surat': ['All', 'Adajan', 'Veshu', 'Varachha', 'Katargam', 'Piplod', 'Althan', 'Pal', 'Nanpura', 'Athwa Lines', 'Udhna', 'Rander', 'Majura Gate', 'Parle Point', 'Bhatar', 'Dumas']
 };
 
-export const API_BASE_URL = "http://localhost:5001/api";
+export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:5001/api";
